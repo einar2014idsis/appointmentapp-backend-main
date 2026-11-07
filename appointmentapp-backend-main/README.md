@@ -88,3 +88,6 @@ Para la configuración de validaciones , la dependencia es:
         <version>3.5.5</version>
     </dependency>
 ```
+## Estado de implementación de esta rama
+
+Los controladores REST implementados cubren pacientes, médicos, exámenes y especialidades. Los controladores de producto, categoría, familia y laboratorio están vacíos; sus entidades o servicios no implican endpoints operativos. El puerto configurado es 9090 y las rutas de los controladores no incluyen un prefijo `/api` en su anotación. Consulta el [README de la raíz](../README.md) para la arquitectura y los pasos de ejecución.
